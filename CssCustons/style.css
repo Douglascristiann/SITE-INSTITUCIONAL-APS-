@@ -41,4 +41,6 @@ nav ul li:hover{
     color: white;
     cursor: pointer;
 }
-
+.titulo-conteudo{
+    text-align: center;
+}
