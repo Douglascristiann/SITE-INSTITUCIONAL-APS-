@@ -44,3 +44,15 @@ nav ul li:hover{
 .titulo-conteudo{
     text-align: center;
 }
+.conteudo p{
+    text-align: center;
+    font-family: 'lato', sans-serif;
+}
+.article-block{
+    background-color: blueviolet;
+    padding: 10px 20px 20px ;
+    border-radius: 30px;
+}
+article{
+    height: 500px;
+}
