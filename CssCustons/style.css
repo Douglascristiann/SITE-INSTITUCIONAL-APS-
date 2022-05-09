@@ -5,23 +5,63 @@ header{
     padding: 0px !important;
     
 }
-.img_logo{
+
+.bloco-logo{
+    background-image: url(/ImagensLinks/banner.jpg);
+    background-size: cover;
     width: 100%;
+    height: 500px;
     
 }
-#logo{
-    background-image: url(/ImagensLinks/banner.jpg);
-    /* background-size: cover;
-     */
-     background-repeat: no-repeat;
+.header-content{
+    right: 0px;
+}
+.bloco-texto{
+    margin-top: 60px;
+    margin-right: 60px;
+    right: 0;
+    padding: 10px;
+    position: absolute;
+    background-color: #038C7F;
+    border-radius: 25px;
+    height: 500px;
+    width: 400px;
+    z-index: 1;
+    align-content:center;
+
+}
+.block-banner2{
+    margin-top: 60px;
+    margin-right: 60px;
+    right: -30px;
+    top: -1px;
+    position:absolute;
+    padding: 10px;
+    background-color: #000;
+    border-radius: 25px;
+    height: 500px;
+    width: 400px;
+    bottom: 80px;
+    align-content:center;
+
 }
 
-#logo p{
-    text-align: center;
-    padding: 200px;
-    font-family: 'Lato', sans-serif;
+#titulo-logo{
+    font-size: 24px;
+  
 
-    font-size: 80px;
+}
+#texto-logo{
+    text-align: center;
+}
+
+
+#logo p{
+    width: 250px;
+    background-color: #038C7F;
+    border-radius: 25px;
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
     color: #F2F2F2;
     filter: brightness(150%);
     filter: drop-shadow(#000 0px 8px);
