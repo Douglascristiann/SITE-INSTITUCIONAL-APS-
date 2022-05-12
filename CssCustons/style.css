@@ -1,9 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;400&display=swap');
 
+*{
+    font-family: 'Lato', sans-serif;
+}
+
+
 header{
     margin: 0px ;
     padding: 0px !important;
     
+}
+.pagina-ativa{
+    border-bottom: solid #000 3px;
+    font-weight:bold;
 }
 
 .bloco-logo{
@@ -59,7 +68,6 @@ header{
     width: 250px;
     background-color: #038C7F;
     border-radius: 25px;
-    font-family: 'Lato', sans-serif;
     font-size: 24px;
     color: #F2F2F2;
     filter: brightness(150%);
@@ -92,10 +100,9 @@ nav ul li:hover{
     text-align: center;
     margin-top: 100px;
 }
-.conteudo p{
-    
+.conteudo p
+{    
     text-align: center;
-    font-family: 'lato', sans-serif;
 }
 .article-block{
     padding: 10px 20px 20px ;
@@ -104,19 +111,17 @@ nav ul li:hover{
 article{
     height: 500px;
 }
-.block-article{
+.bloco-artigo{
    float: left;
    background-color: #F2F2F2;
+
    width: 350px;
    height: 400px;
    margin-left: 25px;
    border-radius: 30px;
 }
-.block-article p {
+.bloco-artigo p {
     padding-top: 1px;
     margin-top: 188px;
     font-size: 24px;
 }
-
-
-
