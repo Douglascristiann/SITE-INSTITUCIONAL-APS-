@@ -25,11 +25,11 @@ header{
     right: 0px;
 }
 .bloco-texto{
-    margin-top: 25px;
+    margin-top: 60px;
     margin-right: 60px;
     right: 0;
     padding: 10px;
-    position: absolute;
+   float: right;
     background-color: #038C7F;
     border-radius: 25px;
     height: 500px;
@@ -39,11 +39,10 @@ header{
 }
 .block-banner2{
     margin-top: 60px;
-    margin-right: 60px;
-    right: -30px;
+    right: 0;
     top: -1px;
-    position:absolute;
     padding: 10px;
+    float: right;
     background-color: #000;
     border-radius: 25px;
     height: 500px;
@@ -52,7 +51,19 @@ header{
     align-content:center;
 }
 
-#titulo-logo{
+.block-banner3{
+    margin-top: 60px;
+    top: -1px;
+    padding: 10px;
+    background-color: #ff0;
+    border-radius: 25px;
+    height: 500px;
+    width: 400px;
+    bottom: 80px;
+    align-content:center;
+    z-index: 0;
+}
+    #titulo-logo{
     font-size: 26px;
     
 
