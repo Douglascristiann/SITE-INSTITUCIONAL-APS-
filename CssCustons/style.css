@@ -116,7 +116,6 @@ article{
 .bloco-artigo{
    float: left;
    background-color: #F2F2F2;
-
    width: 350px;
    height: 400px;
    margin-left: 25px;
@@ -132,6 +131,30 @@ article{
     padding-top: 50px;
     background-color: #038C7F;
     text-align: center;
-    margin: auto;
-        
+    margin: auto;       
+}
+.bloco-conteudo{
+    width: 60%;
+    background-color: #000;
+    height: 110%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 25px;
+    display: flex;
+}
+.bloco-img{
+    position: relative;
+    width: 40%;
+    height: 40%;
+    background-color: #F2F2F2;
+    border-radius: 25px;
+    margin-top: 5%;
+    left: -5%;
+}
+.artigo{
+    text-align:left;
+    margin-top: 35px;
+    color: #F2F2F2;
+    display: flex;
 }

@@ -146,3 +146,9 @@ article{
     margin: auto;
         
 }
+.bloco-conteudo{
+    width: 500px;
+    background-color: #000;
+    height: 90%;
+    position: absolute;
+}
