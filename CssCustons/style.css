@@ -102,6 +102,11 @@ nav ul li:hover{
     text-align: center;
     margin-top: 100px;
     margin-bottom: 50px;
+    font-size: 32px;
+    color: #2F353B;
+    filter: drop-shadow(2px );
+    font-weight: bold;
+    
 }
 .conteudo p
 {    
@@ -119,24 +124,29 @@ article{
    float: left;
    background-color: #F2F2F2;
    width: 350px;
-   height: 350px;
+   height: 400px;
    margin-left: 25px;
    border-radius: 30px;
+}
+.bloco-artigo img{
+    width: 54px;
 }
 .bloco-artigo p {
     padding-top: 1px;
     margin-top: 150px;
     font-size: 24px;
-    color: white;
-    filter: brightness(100%) !important;
+    color: #000;
+}.bloco-artigo:hover {
+    background-color: #038C7F;
+    font-weight: bold;
+    
+    cursor: pointer;
+
+}.bloco-artigo:hover p{
+    color: #F2F2F2;
+
 }
 
-#img-bloco{
-    background-size: cover;
-    width: 350px;
-    background-image: url(../ImagensLinks/atitude.jpg);
-    filter: brightness(20%);
-}
 
 .rodape p{
     height: 100px;
