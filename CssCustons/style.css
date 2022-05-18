@@ -39,7 +39,7 @@ header{
     z-index: 1;
     align-content:center;
 }
-.block-banner2{
+.bloco-estilo{
     margin-top: 60px;
     margin-right: 60px;
     right: -30px;
@@ -156,6 +156,10 @@ article{
     margin: auto;   
     color: #F2F2F2;    
 }
+.rodape img{
+    width: 18px;
+    
+ }
 .bloco-conteudo{
     width: 60%;
     background-color: #F2F2F2;
