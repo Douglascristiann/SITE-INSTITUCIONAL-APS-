@@ -5,6 +5,7 @@
 }
 
 
+
 header{
     margin: 0px ;
     padding: 0px !important;
@@ -26,42 +27,36 @@ header{
 }
 .bloco-texto{
     margin-top: 60px;
-    margin-right: 60px;
     right: 0;
     padding: 10px;
-   float: right;
+    float: right;
     background-color: #038C7F;
     border-radius: 25px;
     height: 500px;
     width: 400px;
-    z-index: 1;
-    align-content:center;
+   
 }
 .block-banner2{
     margin-top: 60px;
-    right: 0;
-    top: -1px;
     padding: 10px;
     float: right;
-    background-color: #000;
+    background-color: rgb(75, 205, 0);
     border-radius: 25px;
     height: 500px;
     width: 400px;
     bottom: 80px;
-    align-content:center;
+    
 }
 
 .block-banner3{
     margin-top: 60px;
-    top: -1px;
     padding: 10px;
-    background-color: #ff0;
+    background-color: rgb(170, 255, 0);
     border-radius: 25px;
     height: 500px;
     width: 400px;
     bottom: 80px;
-    align-content:center;
-    z-index: 0;
+
 }
     #titulo-logo{
     font-size: 26px;
@@ -151,4 +146,10 @@ article{
     background-color: #000;
     height: 90%;
     position: absolute;
+}
+.flex{
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+
 }
