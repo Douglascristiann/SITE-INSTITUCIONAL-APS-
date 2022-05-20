@@ -60,7 +60,7 @@ header{
 
 }
 #texto-logo{
-    text-align: center;
+    text-align: justify;
     color: #fff;
     font-size: 22px;
 }
@@ -205,5 +205,28 @@ article{
 display: flex;
 justify-content: space-evenly;
 flex-direction: row;
+
+}
+.bloco-conteudo2{
+    width: 60%;
+    background-color: #F2F2F2;
+    height: 110%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 25px;
+    padding: 30px;
+}
+
+.titulo{
+    font-size: 26px;
+    color: #000;
+    text-align: center;
+    font-weight: bold;
+}
+
+.paragrafo{
+text-align: justify;
+
 
 }
