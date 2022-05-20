@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;400&display=swap');
+
+*{
+    font-family: 'Lato', sans-serif;
+}
+
+.pagina-ativa{
+    border-bottom: solid #000 3px;
+    font-weight:bold;}
+
+nav a{
+    text-decoration:none;   
+    color: #000;
+    
+}
+
+nav ul {
+    display: flex;
+    
+}
+nav ul li{
+    list-style-type: none;
+    padding: 6px 80px ;
+    border: solid #fff 3px;
+    
+}
+nav ul li:hover{
+    border-radius: 5px;
+    background-color: #038C7F;
+    color: white;
+    cursor: pointer;
+}
+.titulo{
+    font-size: 26px;
+    color: #000;
+    text-align: center;
+    font-weight: bold;
+}
+
+.bibliografia{
+    line-height: 30px;
+    font-size: 15px;
+}
+
+.bloco-conteudo{
+    width: auto;
+    background-color: #F2F2F2;
+    height: auto;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 25px;
+    padding: 30px;}
+
+
