@@ -120,7 +120,7 @@ article{
     margin-bottom: 500px;
 }
 .bloco-artigo{
-   float: left;
+   
    background-color: #F2F2F2;
    width: 350px;
    height: 400px;
@@ -199,4 +199,11 @@ article{
 }
 #sub-titulo-artigo{
     font-size: 20px;   
+}
+
+.container{
+display: flex;
+justify-content: space-evenly;
+flex-direction: row;
+
 }
